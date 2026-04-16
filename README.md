@@ -21,7 +21,6 @@ Here is a quick look at what you will find in this repository:
 | `number_guess.py` | A basic number guessing game. | `while` loops, conditionals, `random` |
 | `string_utils.py` | Scripts to reverse strings and count vowels. | String manipulation, `for` loops |
 
-*(Note: Update the table above with your actual script names!)*
 
 ## 💻 How to Run
 
@@ -29,9 +28,7 @@ Because these are basic programs using the standard library, you do not need to 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
-
+   git clone [https://github.com/aswinkumaar06bec28-blip/Python-Program
    Run a script directly:
 
 2. **Bash**
