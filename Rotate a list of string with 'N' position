@@ -1,0 +1,12 @@
+#rotate a list of string with 'N' position
+def rotate_list(strings, n):
+    n = n % len(strings) if strings else 0
+    rotated_list = strings[-n:] + strings[:-n]
+    return rotated_list
+
+#main
+strings = ["apple", "banana", "cherry", "date", "fig"]
+n = 2
+rotated = rotate_list(strings, n)
+print("Original list:", strings)
+print("Rotated list by", n, "positions:", rotated)
