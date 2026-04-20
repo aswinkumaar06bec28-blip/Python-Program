@@ -1,0 +1,4 @@
+#kilometer to miles
+a=int(input("Enter the kilometer:"))
+b=a*1.609344
+print("Kilmeter in miles:",b)
