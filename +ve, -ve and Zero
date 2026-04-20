@@ -1,0 +1,15 @@
+#positiven,negative,or zero program
+m=int(input("Enter the number :"))
+if m>0:
+   print("The  number is positive")
+elif m<0:
+   print("The  number is negative")
+else:
+   print("The number is zero")
+[24bec036@mepcolinux Expt2]$cat ex2.py
+#odd or even program
+m=int(input("Enter the number :"))
+if m%2==0:
+   print("The number is even")
+else:
+   print("The number is odd")
