@@ -1,0 +1,14 @@
+#count the number of characters (frequency) in a string
+def character(string):
+   frequency={}
+   for char in string:
+      if char in frequency:
+       frequency[char]+=1
+      else:
+         frequency[char]=1
+   return frequency
+
+
+string1=input("Enter the string :")
+frequency=character(string1)
+print(frequency)
