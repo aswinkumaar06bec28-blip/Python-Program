@@ -1,0 +1,13 @@
+#Longest word in a string
+def longest_word(sentence):
+    words = sentence.split()
+    longest = ""
+
+    for word in words:
+        if len(word) > len(longest):
+            longest = word
+
+    return longest
+
+str1=longest_word("Python is a programming language taught in our college")
+print("Longest word is ",str1)
