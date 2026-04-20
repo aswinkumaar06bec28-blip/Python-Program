@@ -1,0 +1,8 @@
+#Swapping of 2 numbers
+a=int(input("Enter the a value:"))
+b=int(input("Enter the b value:"))
+print("Before Swapping A:",a,"B:",b)
+c=a
+a=b
+b=c
+print("After Swapping A:",a," B:",b)
