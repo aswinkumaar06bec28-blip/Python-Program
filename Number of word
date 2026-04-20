@@ -1,0 +1,12 @@
+#Number of word
+def countwords(sentence):
+    count = 1
+    for char in sentence:
+        if char == ' ':
+            count += 1
+    return count
+
+
+a=input("ENTER THE STRING:")
+print(countwords(a))
+
