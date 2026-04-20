@@ -1,0 +1,18 @@
+#Number of digits,alphabets,and spaces
+def count_chars(s):
+    digits = spaces = alphabets = 0
+
+    for char in s:
+        if char.isdigit():
+            digits += 1
+        elif char.isalpha():
+            alphabets += 1
+        elif char.isspace():
+            spaces += 1
+
+    print("Digits:", digits)
+    print("Alphabets:", alphabets)
+    print("Spaces:", spaces)
+
+str1=input("Enter the string :")
+count_chars(str1)
