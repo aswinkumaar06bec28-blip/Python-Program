@@ -1,0 +1,14 @@
+#to print list without duplicates
+
+def duplicates(numbers):
+   unique_numbers = []
+   for number in numbers:
+      if number not in unique_numbers:
+       unique_numbers.append(number)
+   print("List of unique numbers:", unique_numbers)
+
+
+#main
+numbers=[1,2,3,4,5,6,7,8,9,10,9,2]
+print("Before removing duplicates:",numbers)
+duplicates(numbers)
