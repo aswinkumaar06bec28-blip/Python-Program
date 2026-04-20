@@ -1,0 +1,5 @@
+#kilo in pound and tonne
+a=int(input("Enter the weight in kg:"))
+b=a*2.20
+c=a*0.001
+print("Weight of object in pound:",b," in tonne:",c)
