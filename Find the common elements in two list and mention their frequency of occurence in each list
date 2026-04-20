@@ -1,0 +1,26 @@
+#Find the common elements in two list and mention their frequency of occurence in each list
+def find_common_elements(list1, list2):
+    count1 = {}
+    count2 = {}
+    for item in list1:
+        if item in count1:
+            count1[item] += 1
+        else:
+            count1[item] = 1
+    for item in list2:
+        if item in count2:
+            count2[item] += 1
+        else:
+            count2[item] = 1
+    common_elements = {}
+    for item in count1:
+        if item in count2:
+            common_elements[item] = (count1[item], count2[item])
+    return common_elements
+
+
+list1 = ["apple", "banana", "orange", "apple", "kiwi"]
+list2 = ["banana", "kiwi", "banana", "apple", "grape"]
+common = find_common_elements(list1, list2)
+for item, (freq1, freq2) in common.items():
+    print(f"'{item}' is common and occurs {freq1} times in list1 and {freq2} times in list2.")
