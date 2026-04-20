@@ -1,0 +1,8 @@
+#power of 2 numbers
+def prod(x,y):
+   a=pow(x,y)
+   return a
+
+#main
+print(prod(4,3))
+print(prod(3,2))
