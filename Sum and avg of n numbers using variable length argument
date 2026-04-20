@@ -1,0 +1,12 @@
+#sum and avg of n numbers using variable length argument
+def sumnatural(n):
+   if n==0:
+      return 0
+   else:
+      return n+sumnatural(n-1)
+
+#main
+n=int(input("Enter the N value :"))
+sum1=sumnatural(n)
+avg=sum1/n
+print("Sum is ",sum1,"\nAverage is ",avg)
