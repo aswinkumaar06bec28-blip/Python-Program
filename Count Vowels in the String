@@ -1,0 +1,11 @@
+#to count vowels in a string
+def st1(a):
+   count=0
+   a1=len(a)
+   for i in a:
+      if (i==("a" or "e" or "i" or "o" or "u" or "A" or "E" or "I" or "O" or "U")):
+       count=count+1
+   print("Number of vowels in string ",a," is ",count)
+#main function
+a=input("Enter the string :")
+st1(a)
