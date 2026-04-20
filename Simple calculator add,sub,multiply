@@ -1,0 +1,14 @@
+#simple calculator add,sub,multiply
+def cal(a,b):
+   m=a+b
+   n=a-b
+   o=a*b
+   p=a/b
+   q=a%b
+   return (m,n,o,p,q)
+
+#main function
+a=int(input("Enter the number A : "))
+b=int(input("Enter the number B : "))
+h,i,j,k,l=cal(a,b)
+print("1.Add : ",h,"\n2.Subtraction : ",i,"\n3.Multiply : ",j,"\n4.Division : ",k,"\n5.Modulus : ",l)
