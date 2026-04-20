@@ -1,0 +1,7 @@
+#factorial program
+fact=int(input("Enter the number :"))
+fact1=1
+for i in range(1,fact+1):
+   fact1*=i
+
+print("The factorial is ",fact1)
