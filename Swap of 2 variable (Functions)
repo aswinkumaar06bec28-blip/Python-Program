@@ -1,0 +1,14 @@
+#swap of 2 variables
+def swap(a,b):
+   c=a
+   a=b
+   b=c
+   print("After Swapping ")
+   print("A :",a,"B :",b)
+
+
+a=int(input("Enter the number A : "))
+b=int(input("Enter the number B : "))
+print("Before Swapping ")
+print("A :",a,"B :",b)
+swap(a,b)
