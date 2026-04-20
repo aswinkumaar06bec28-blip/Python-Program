@@ -1,0 +1,17 @@
+#nested if statements
+print("1.Warm and Dry")
+print("2.Warm and Humid")
+print("3.Cold and Dry")
+print("4.Cold and Dry")
+a=input("Enter the temperature ")
+b=input("Enter the humidity ")
+if a=="Warm":
+   if b=="Dry":
+      print("Play Basketball")
+   if b=="Humid":
+      print("Play Tennis")
+elif a=="Cold":
+   if b=="Dry":
+      print("Play Cricket")
+   if b=="Humid":
+      print("Play Swim")
