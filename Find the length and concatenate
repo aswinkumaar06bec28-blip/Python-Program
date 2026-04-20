@@ -1,0 +1,14 @@
+#Find the length and concatenate
+def string_operations(str1, str2):
+    length1 = len(str1)
+    length2 = len(str2)
+    concatenated = str1 + str2
+
+    print("Length of first string:", length1)
+    print("Length of second string:", length2)
+    print("Concatenated string:", concatenated)
+
+
+str1=input("Enter the string1 :")
+str2=input("Enter the string2 :")
+string_operations(str1,str2)
