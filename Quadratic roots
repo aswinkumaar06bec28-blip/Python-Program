@@ -1,0 +1,8 @@
+#Quadratic roots
+#include math.h
+a=float(input("Enter the a value:"))
+b=float(input("Enter the b value:"))
+c=float(input("Enter the c value:"))
+d1=(-b-((b*b)-4*a*c)**(1/2))/2*a
+d2=(-b+((b*b)-4*a*c)**(1/2))/2*a
+print("The Roots are ",d1,d2)
