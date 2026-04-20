@@ -1,0 +1,13 @@
+# Check if the string length is 2 or more and first and last characters are the same
+def count_special_strings(string_list):
+   count = 0
+   for s in string_list:
+      if len(s) >= 2 and s[0] == s[-1]:
+       count += 1
+   print("Number of special strings:",count)
+
+
+#main
+strings=["aba", "xyz", "aa", "b", "civic", "deed", "hello", "noon", "a"]
+print("Strings:",strings)
+count_special_strings(strings)
