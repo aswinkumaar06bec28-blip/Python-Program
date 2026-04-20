@@ -1,0 +1,5 @@
+#Square & cube
+a=int(input("Enter A:"))
+b=a*a
+c=b*a
+print("Square ",b,"Cube",c)
