@@ -1,0 +1,11 @@
+#Sort words in a sentence in alphabetically
+def sort_words(sentence):
+ words=sentence.split()
+ simplified_words=[word.lower() for word in words]
+ sorted_words=sorted(simplified_words)
+ return sorted_words
+
+
+sentence=input("Enter the sentence :")
+sorted_words = sort_words(sentence)
+print(sorted_words)
