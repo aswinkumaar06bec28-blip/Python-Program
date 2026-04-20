@@ -1,0 +1,26 @@
+#1.store names of color return size of list 2.greatest and minimum value from list 3.sum and average of all of elements of a list
+def analyze_colors(colors,number):
+    size = len(colors)
+    greatest = max(number)
+    minimum = min(number)
+    total_sum = sum(number)
+    average = total_sum / len(number)
+    return {
+        "size": size,
+        "greatest": greatest,
+        "minimum": minimum,
+        "sum": total_sum,
+        "average": average
+        }
+
+#main
+colors = ["red", "blue", "green", "black","silver","gold"]
+number=[1,2,3,4,5,6,7,8,9,10]
+print("Colours:",colors)
+print("Numbers:",number)
+result = analyze_colors(colors,number)
+print("Size of the colour list:", result["size"])
+print("Greatest number value:", result["greatest"])
+print("Minimum number value:", result["minimum"])
+print("Sum of numeric values:", result["sum"])
+print("Average of numeric values:", result["average"])
